@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Sarala');
+
+body {
+	font-family: 'Sarala', sans-serif;
+}
+.navbar img {
+	height: 70px;
+	margin-left: 20px;
+}
+.navbar-white {
+	background-color: white;
+	-webkit-box-shadow: -5px 10px 22px -15px rgba(29,3,99,1);
+    -moz-box-shadow: -5px 10px 22px -15px rgba(29,3,99,1);
+	box-shadow: -5px 10px 22px -15px rgba(29,3,99,1);
+}
+.container {
+	margin: 0 auto;
+	width: 80%;
+	position: relative;
+}
+a.nav-link {
+	font-weight: bold;
+	font-family: 'Righteous', cursive;
+	color: darkblue !important;
+	margin-left: 10px;
+}
+a.nav-link:hover {
+	background-color: darkblue;
+	color: white !important;
+	-o-transition:color .2s ease-out, background 1s ease-in;
+    -ms-transition:color .2s ease-out, background 1s ease-in;
+    -moz-transition:color .2s ease-out, background 1s ease-in;
+    -webkit-transition:color .2s ease-out, background 1s ease-in;
+	transition:color .2s ease-out, background 1s ease-in;
+}
+.collapse ul {
+	margin-right: 40px;
+}
+.hero {
+	width: 100%;
+	height: 500px;
+	background-image: url('https://images.pexels.com/photos/343469/pexels-photo-343469.jpeg');
+	background-size: 100%;
+	position: relative;
+}
+.hero:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 64, 168, .5);
+}
+.hero p {
+	padding-top: 200px;
+	text-align: right;
+	color: white;
+	font-size: 30px;
+}
+.hero-cont {
+	width: 70%;
+	position: absolute;
+	right: 0;
+}
